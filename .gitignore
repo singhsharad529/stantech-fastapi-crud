@@ -1,0 +1,13 @@
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Common ignores
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.env
+venv
