@@ -84,7 +84,8 @@ docker run -d -p 8000:8000   -e API_KEY=<api_key_for_authentication>  -v $(pwd)/
 ```
 
 **The application is now running at:**
-http://127.0.0.1:8000
+- http://127.0.0.1:8000
+- Swagger UI: http://127.0.0.1:8000/docs
 
 
 ### 1. Running Locally
@@ -126,7 +127,8 @@ The Base.metadata.create_all(bind=engine) in main.py will automatically create t
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 **The application is now running at:**
-http://127.0.0.1:8000
+- http://127.0.0.1:8000
+- Swagger UI: http://127.0.0.1:8000/docs
 
 
 ## Testing
