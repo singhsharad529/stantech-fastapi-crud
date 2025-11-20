@@ -2,8 +2,7 @@ version: "3.3"
 
 services:
   web:
-    build:
-      context: .
+    image: "singhsharad533/book-service:latest"
     container_name: books-api
     ports:
       - "8000:8000"
